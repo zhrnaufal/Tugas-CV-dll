@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    
+  </head>
+  <style>
+    /* .nav{
+        list-style-type: none; text-decoration: none; margin: 0; padding: 0; display: flex; justify-content: center;
+        background-color:rgb(255, 255, 255);}
+     .nav li {
+           display: inline-block; font-size: 20px;  padding: 20px; color: rgba(0, 0, 0, 0.5);
+    } */
+
+    table {
+    }
+  </style>
+
+  <body style="margin: 20px 20px">
+    <form>
+      <fieldset style="display: flex; justify-content: center">
+        <pre>
+Home   |                  Generate Link   |                   Transaction History     |                   Policy  |                   Logout  |                    </pre
+        >
+      </fieldset>
+      <br />
+      <div style="display: flex; justify-content: left">
+        <h1 class="border-h1" style="border-style: inset; padding: 50px 110px">
+          ?
+        </h1>
+      </div>
+      <input type="submit" value="Upload Picture" style="margin-top: 10px; width: 120px;" />
+      <section style="display: flex; margin: 50px 0 0 300px">
+        <table cellpadding="5">
+          <tr>
+            <td>Tittle Here :</td>
+            <td>
+              <input type="text" name="tittle" placeholder="Macbook Air $800" />
+            </td>
+          </tr>
+          <tr>
+            <td>Description :</td>
+            <td>
+              <textarea
+                name="description"
+                cols="20"
+                rows="3"
+                placeholder=" Year : 2019 Model : Condition : Mint"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Account Number :</td>
+            <td>
+              <input
+                type="number"
+                name="account-number"
+                placeholder="1727-1617-491-2"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Bank :</td>
+            <td>
+              <select name="bank" size="1" multiple>
+                <option value="BNI">BNI</option>
+                <option value="BRI">BRI</option>
+                <option value="CIMB NIAGA">CIMB-NIAGA</option>
+                <option value="BANKRUT">BANKRUT</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Account Holder:</td>
+            <td>
+              <input
+                type="text"
+                name="account-holder"
+                placeholder="Name Here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Transaction :</td>
+            <td>
+              <select name="drop-down" id="Transaction">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green;">
+              *if transaction is for 3 person, choose 3 from the drop-down list
+            </td>
+            
+            
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+              <label for="vehicle1"> Send to Mobile Phone</label>
+            </td>
+            
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" id="option-2" name="option-2" value="Car" />
+            <label for="vehicle2"> Send to Email</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Send to Mobile Phone:</td>
+            <td>
+              <input
+                type="text"
+                name="send to Mobile Phone"
+                
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Send to Email</td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                placeholder="jhonny160298@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="Generate Nabr link" style="background-color: green; color: honeydew;">
+            </td>
+          </tr>
+        </table>
+      </section>
+    </form>
+  </body>
+</html>

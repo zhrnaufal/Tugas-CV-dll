@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form-pizza.php" />
+  </head>
+  <body style="display: flex; justify-content: center">
+    <fieldset>
+      <form action="form-pizza.php" method="post">
+        <h3>Black Goose Bistro | Pizza-On-Demand</h3>
+        <p>
+          Our 12" wood-fired pizzas are available for delivery. Build your
+          <br />
+          custom pizza and we'll deliver it within an hour.
+        </p>
+        <p>Your Information</p>
+        <table>
+          <tr>
+            <td>Name :</td>
+            <td><input type="text" name="username" /></td>
+          </tr>
+          <tr>
+            <td>Address :</td>
+            <td><input type="text" name="alamat" /></td>
+          </tr>
+          <tr>
+            <td>Telephone Number :</td>
+            <td>
+              <input type="text" name="contact" placeholder="0876-XXXX-XXXX" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email :</td>
+            <td>
+              <input type="email" name="email" placeholder="xxxxx@gmail.com" />
+            </td>
+          </tr>
+          <tr>
+            <td>Delivery Instruction :</td>
+            <br />
+          </tr>
+        </table>
+        <textarea name="instruction" cols="40" rows="3"></textarea>
+        <h3>Design Your Dream Pizza:</h3>
+        <p>Pizza specs</p>
+        <p>Crust (Choose one)</p>
+        <div class="Design-Pizza">
+          <input
+            type="checkbox"
+            id="classic-white"
+            name="classic-white"
+            value="a"
+          />
+          <label for="classic-white">classic white</label> <br />
+          <input type="checkbox" id="Multigrain" name="Multigrain" value="b" />
+          <label for="Multigrain">Multigrain</label> <br />
+          <input
+            type="checkbox"
+            id="Cheese-stuffed-crust"
+            name="Cheese-stuffed-crust"
+            value="c"
+          />
+          <label for="Cheese-stuffed-crust">Cheese-stuffed-crust</label> <br />
+          <input
+            type="checkbox"
+            id="Gluten-free"
+            name="Gluten-free"
+            value="d"
+          />
+          <label for="Glutten-free">Glutten-free</label>
+        </div>
+        <p>Toppings (Choose as many as you want)</p>
+        <div class="Toppings">
+          <input checked type="checkbox" id="Red-sauce" name="Red-sauce" value="a" />
+          <label  for="Red-sauce">Red-sauce</label> <br />
+          <input
+            type="checkbox"
+            id="White-sauce"
+            name="White-sauce"
+            value="b"
+          />
+          <label for="White-sauce">White-sauce</label> <br />
+          <input
+            type="checkbox"
+            id="Mozarella Cheese"
+            name="Mozarella Cheese"
+            value="c"
+          />
+          <label for="Mozarella Cheese">Mozarella Cheese</label> <br />
+          <input type="checkbox" id="Pepperoni" name="Pepperoni" value="d" />
+          <label for="Pepperoni">Pepperoni</label> <br />
+          <input type="checkbox" id="Mushrooms" name="Mushrooms" value="e" />
+          <label for="Mushrooms">Mushrooms</label> <br />
+          <input type="checkbox" id="Peppers" name="Peppers" value="f" />
+          <label for="Peppers">Peppers</label> <br />
+          <input type="checkbox" id="Anchoives" name="Anchoives" value="g" />
+          <label for="Anchoives">Anchoives</label>
+        </div>
+        <p>
+          Number <br />
+          How many Pizzas:
+          <input type="number" id="jumlah-pesanan" name="angka" value="1-x" />
+        </p>
+        <link rel="stylesheet" href="thanks-card-pizza.html"><input type="submit" id="Mysubmit" value="Bring me a pizza "/></link>
+        <input type="reset" id="ulang" value="reset " />
+      </form>
+    </fieldset>
+  </body>
+</html>

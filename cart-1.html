@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+  </head>
+  <style>
+    .header a {
+      margin: 18px 20px 0 0;
+      text-decoration-color: blue;
+      color: blue;
+    }
+    .footer a {
+      margin-right: 20px;
+      text-decoration-color: blue;
+      color: blue;
+    }
+  </style>
+  <header>
+    <section class="header">
+      <fieldset
+        style="
+          display: flex;
+          flex-direction: row;
+          background-color: darkgrey;
+          padding: 20px;
+        "
+      >
+        <img
+          style="
+            width: 45px;
+            width: 45px;
+            margin: 0 20px 0 0px;
+            border-radius: 10px;
+          "
+          src="kotak.png"
+        />
+        <p
+          style="
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin: 18px 50px 0 0;
+          "
+        >
+          Site Name
+        </p>
+        <a href="#">Category 1 |</a>
+        <a href="#">Category 2 |</a>
+        <a href="#">Category 3 </a>
+        <img style="width: 45px; margin: 0 20px 0 740px" src="search.png" />
+        <img style="width: 45px; margin-right: 10px" src="keranjang.png" />
+        <p
+          style="
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+          "
+        >
+          Cart (1)
+        </p>
+      </fieldset>
+    </section>
+  </header>
+
+  <body>
+    <section>
+      <fieldset style="padding-bottom: 90px">
+        <h2>Your Cart</h2>
+        <hr style="width: 60%; float: left" />
+        <div class="box" style="width: 30%; position: relative; background-color: darkgray; float: right; padding: 20px; margin-top:0;  ">
+            <p style="font-size: 25px; font-weight: bold;">Summary (1 item)</p>
+            <table width="600px" style="font-size: 20px; padding-bottom: 120px;">
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Est. taxes</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div style="display: flex; flex-direction: row">
+          <p style="margin: 15px 28% 0 0">Item</p>
+          <p style="margin: 15px 125px 0 0">Price</p>
+          <p>Quantity</p>
+          <!-- <table width="1700px">
+                        <tr>
+                            <td>Item</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                        </tr>
+                        
+                    </table><br> -->
+        </div>
+
+        <hr style="width: 60%; float: left" />
+        <br />
+        <div style="display: flex; float: left; flex-direction: row">
+          <h1
+            class="border-h1"
+            style="
+              border-style: inset;
+              padding: 50px 110px;
+              width: 20%;
+              float: left;
+            "
+          >
+            ?
+          </h1>
+          <pre style="margin: 60px 50px 0 20px">T-Shirt<br>Size: Small</pre>
+        </div>
+      
+        <div>
+          <table cellpadding="55">
+            <tr>
+              <td><b>$20.00</b></td>
+              <td>
+                <!-- <input type="number"> -->
+                <select name="drop-down" id="Quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <br />
+        <br />
+        <hr style="width: 60%; float: left" />
+        <br />
+        <p style="margin: 0 0 0 52.7%; font-family: serif">
+          Subtotal: <b>$20.00</b>
+        </p>
+        <hr style="width: 60%; float: left" />
+     
+      </fieldset>
+    </section>
+
+    <fieldset>
+      <div
+        class="footer"
+        style="display: flex; flex-direction: row; padding: 20px"
+      >
+        <p
+          style="
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin: 0 50px 0 0;
+          "
+        >
+          Site Name
+        </p>
+        <a href="#">Category X |</a>
+        <a href="#">Category Y |</a>
+        <a href="#">Category Z </a>
+
+        <p
+          style="
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0 0 0 40%;
+          "
+        >
+          Stay in touch! Join Our Newsletter.
+        </p>
+      </div>
+      <div class="bawah" style="display: flex; flex-direction: row">
+        <img
+          style="width: 40px; height: 40px; margin-left: 15px"
+          src="visa.png"
+        />
+        <img style="width: 40px; height: 40px ;" src="2.png" />
+        <img style="width: 40px; height: 40px" src="3.png" />
+        <input
+          style="height: 25px; margin: 0 0 0 62%"
+          type="email"
+          placeholder="Enter email"
+        />
+        <input
+          style="height: 30px; margin: 0 0 0"
+          type="button"
+          value="Subscribe"
+        />
+      </div>
+    </fieldset>
+  </body>
+</html>
